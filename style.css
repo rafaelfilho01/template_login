@@ -1,0 +1,155 @@
+*{
+  padding:0;
+  margin:0;
+  font-family: 'Montserrat', sans-serif
+}
+
+/* nav */
+.container-center{
+  position:relative;
+  padding:0px 21px;
+  width:470px;
+  height:660px;
+}
+
+.nav h1{
+  color: #7367F0;
+  font-size:24px;
+  margin: 10px 14px;
+}
+
+.nav h2{
+  color: #5e5873;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin: 10px 14px;
+}
+
+.nav p{
+  color: #5e5873;
+  font-size: 14px;
+  font-weight: 100;
+  margin: 15px 14px;
+  letter-spacing: .7px;
+}
+
+/* alert example */
+.alert{
+  position: relative;
+  width:400px;
+  height:70px;
+  padding: 10px 14px;
+  margin: 15px;
+}
+.alert p{
+  font-size: 12px;
+  color: #7367F0;
+  margin: 2px 0px;
+  width:370px;
+  height:25px;
+}
+
+/* form */
+.form{
+  width:400px;
+  height:220px;
+  margin: 0px 15px;
+}
+
+.form form p{
+  font-size:12px;
+  color: #5e5873;
+  margin: 0px 0px 4px;
+  width: 399px;
+  height: 17px;
+}
+
+.form input{
+  width:400px;
+  height:25px;
+  padding: 6px 14px;
+  border-radius: 5px;
+  border: .5px solid;
+  border-color: #5e5873;
+}
+
+.form .row{
+  display: flex;
+  flex-direction: row;
+  width: 430px;
+  height:20px;
+  margin-top: 10px;
+}
+
+.form .row a{
+  font-size: 13px;
+  text-decoration: none;
+  width: 120px;
+  text-align: center;
+  color: #7367F0;
+}
+
+.form .row2{
+  display: flex;
+  align-items: flex-end;
+  margin: 30px 0px;
+}
+
+.form .row2 input{
+  position: absolute;
+  width: 20px;
+  display: inline-block;
+  border: 1px solid;
+}
+
+.form .row2 input:checked{
+  background-color: #7367F0;
+}
+
+.form .row2 p{
+  position: absolute;
+  right: 50px;
+}
+
+.form .btn{
+  width: 430px;
+  height: 38px;
+  background-color: #7367F0;
+  color: white;
+  font-size: 14px;
+  border-radius: 5px;
+  border: none;
+}
+
+
+.container-center .create{
+  text-align: center;
+  margin: 30px 0px;
+  font-size: 14px;
+}
+
+.container-center .create p{
+  color: #5e5873;
+  margin: 21px 0px 14px;
+}
+
+.container-center .create p a{
+  color: #7367F0;
+  text-decoration: none;
+  font-weight: 100;
+}
+
+.create i{
+  font-size: 38px;
+  margin: 5px 10px;
+  color: #7367F0;
+}
+.create i:hover{
+  color: #433a9e;
+ transition: .5s all;
+ cursor: pointer;
+}
+
+
+
